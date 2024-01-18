@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Board, GameState, SquareValue } from "@/types";
+import { GameState } from "@/types";
 import GameBoard from "@/components/GameBoard";
 import { calculateWinner, createInitialBoard } from "@/helpers";
 
