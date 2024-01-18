@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.board-row {
+  display: contents;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 64px;
+  font-weight: bold;
+  color: black;
+}
+
+.new-game-btn {
+  background-color: blue;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
